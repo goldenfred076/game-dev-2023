@@ -1,5 +1,7 @@
-h5>Version 0.0.2</h5><h1 align=center>T1A02-lists-and-tables-by-fred</h1>
-<h2> lists</h2><o1> ordered listof fav foods (at least 5)
+<h5>Version 0.0.2</h5>
+<h1> align=center>T1A02-lists-and-tables-by-fred</h1>
+<h2> lists</h2>
+<o1> ordered listof fav foods (at least 5)
   <li>kd
   <li>steak
 </o1>
@@ -17,4 +19,10 @@ h5>Version 0.0.2</h5><h1 align=center>T1A02-lists-and-tables-by-fred</h1>
 <h2>Advancend</h2>
 load an image and get it to move 10 pixels to the left useing the button below<br>
 <image id="myimage01" src="" style="position:relative; left:0; top:0; width:50; height:50; "><br> 
+<input type=button value="go left" onclick="{
+  document.getElementById('myImage01') .style.left ='200px'
+  docment.getElementById('myDiv01').innerHTML ='it went left'
+}">
   
+  
+  <div id="myDiv01">...</div>
