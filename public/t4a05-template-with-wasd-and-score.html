@@ -34,6 +34,16 @@ function myCheckHit(){
       document.all.myText01.value = 'You hit myImg02'  
       myScore -= 1
    }   
+   if ( myHitOther('myImg01','myImg05') ){
+      document.getElementById('myImg01').style.left = '20px'
+      document.all.myText01.value = 'You hit myImg02'  
+      myScore -= 1
+   }   
+   if ( myHitOther('myImg01','myImg06') ){
+      document.getElementById('myImg01').style.left = '20px'
+      document.all.myText01.value = 'You hit myImg02'  
+      myScore -= 1
+   }   
    
    if ( myHitOther('myImg01','myImg03') ){
        //alert('you lose')
@@ -128,5 +138,5 @@ function myCheckHit(){
 <img id="myImg02" src="springtrap.gif"  style="position:absolute; width:100px; height:80px; left:350px; top:190px;">
 <img id="myImg03" src="followme.png"  style="position:absolute; width:100px; height:80px; left:500px; top:190px;">
 <img id="myImg04" src="Purple_GuyWest.gif"  style="position:absolute; width:100px; height:80px; left:800px; top:400px;">
-<img id="myImg02" src="springtrap.gif"  style="position:absolute; width:100px; height:80px; left:650px; top:190px;">
-<img id="myImg03" src="followme.png"  style="position:absolute; width:100px; height:80px; left:800px; top:190px;">
+<img id="myImg05" src="springtrap.gif"  style="position:absolute; width:100px; height:80px; left:350px; top:390px;">
+<img id="myImg06" src="followme.png"  style="position:absolute; width:100px; height:80px; left:500px; top:390px;">
